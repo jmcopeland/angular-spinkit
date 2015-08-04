@@ -5,6 +5,7 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "<div class=\"chasing-dots-spinner\">\n" +
     "  <div class=\"dot1\"></div>\n" +
     "  <div class=\"dot2\"></div>\n" +
+    "  <span ng-transclude></span>\n" +
     "</div>\n"
   );
 
@@ -29,6 +30,7 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "    <div class=\"circle3\"></div>\n" +
     "    <div class=\"circle4\"></div>\n" +
     "  </div>\n" +
+    "  <span ng-transclude></span>\n" +
     "</div>\n"
   );
 
@@ -44,7 +46,8 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "  <div class=\"cube\"></div>\n" +
     "  <div class=\"cube\"></div>\n" +
     "  <div class=\"cube\"></div>\n" +
-    "</div>"
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
@@ -52,6 +55,7 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "<div class=\"double-bounce-spinner\">\n" +
     "  <div class=\"double-bounce1\"></div>\n" +
     "  <div class=\"double-bounce2\"></div>\n" +
+    "  <span ng-transclude></span>\n" +
     "</div>\n"
   );
 
@@ -70,17 +74,22 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "  <div class=\"fading-circle10 fading-circle\"></div>\n" +
     "  <div class=\"fading-circle11 fading-circle\"></div>\n" +
     "  <div class=\"fading-circle12 fading-circle\"></div>\n" +
-    "</div>"
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
   $templateCache.put('src/templates/pulseSpinner.html',
-    "<div class=\"pulse-spinner\"></div>\n"
+    "<div class=\"pulse-spinner\">\n" +
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
   $templateCache.put('src/templates/rotatingPlaneSpinner.html',
-    "<div class=\"three-dots-row-spinner\"></div>\n"
+    "<div class=\"three-dots-row-spinner\">\n" +
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
@@ -89,12 +98,15 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "  <div class=\"bounce1\"></div>\n" +
     "  <div class=\"bounce2\"></div>\n" +
     "  <div class=\"bounce3\"></div>\n" +
-    "</div>"
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
   $templateCache.put('src/templates/wanderingCubesSpinner.html',
-    "<div class=\"wandering-cubes-spinner\"></div>\n"
+    "<div class=\"wandering-cubes-spinner\">\n" +
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 
@@ -105,6 +117,7 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
     "  <div class=\"rect3\"></div>\n" +
     "  <div class=\"rect4\"></div>\n" +
     "  <div class=\"rect5\"></div>\n" +
+    "  <span ng-transclude></span>\n" +
     "</div>\n"
   );
 
@@ -112,7 +125,8 @@ angular.module('angular-spinkit').run(['$templateCache', function($templateCache
   $templateCache.put('src/templates/wordPressSpinner.html',
     "<div class=\"word-press-spinner\">\n" +
     "  <span class=\"inner-circle\"></span>\n" +
-    "</div>"
+    "  <span ng-transclude></span>\n" +
+    "</div>\n"
   );
 
 }]);

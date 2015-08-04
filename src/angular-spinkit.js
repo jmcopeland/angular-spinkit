@@ -25,6 +25,7 @@ angular.module('angular-spinkit',
 angular.module('ngRotatingPlaneSpinner', []).directive('rotatingPlaneSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/rotatingPlaneSpinner.html'
   };
 });
@@ -32,6 +33,7 @@ angular.module('ngRotatingPlaneSpinner', []).directive('rotatingPlaneSpinner', f
 angular.module('ngDoubleBounceSpinner', []).directive('doubleBounceSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/doubleBounceSpinner.html'
   };
 });
@@ -39,6 +41,7 @@ angular.module('ngDoubleBounceSpinner', []).directive('doubleBounceSpinner', fun
 angular.module('ngWaveSpinner', []).directive('waveSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/waveSpinner.html'
   };
 });
@@ -46,6 +49,7 @@ angular.module('ngWaveSpinner', []).directive('waveSpinner', function () {
 angular.module('ngWanderingCubesSpinner', []).directive('wanderingCubesSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/wanderingCubesSpinner.html'
   };
 });
@@ -53,6 +57,7 @@ angular.module('ngWanderingCubesSpinner', []).directive('wanderingCubesSpinner',
 angular.module('ngPulseSpinner', []).directive('pulseSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/pulseSpinner.html'
   };
 });
@@ -60,6 +65,7 @@ angular.module('ngPulseSpinner', []).directive('pulseSpinner', function () {
 angular.module('ngChasingDotsSpinner', []).directive('chasingDotsSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/chasingDotsSpinner.html'
   };
 });
@@ -67,6 +73,7 @@ angular.module('ngChasingDotsSpinner', []).directive('chasingDotsSpinner', funct
 angular.module('ngCircleSpinner', []).directive('circleSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/circleSpinner.html'
   };
 });
@@ -74,6 +81,7 @@ angular.module('ngCircleSpinner', []).directive('circleSpinner', function () {
 angular.module('ngThreeBounceSpinner', []).directive('threeBounceSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/threeBounceSpinner.html'
   };
 });
@@ -81,6 +89,7 @@ angular.module('ngThreeBounceSpinner', []).directive('threeBounceSpinner', funct
 angular.module('ngCubeGridSpinner', []).directive('cubeGridSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/cubeGridSpinner.html'
   };
 });
@@ -88,6 +97,7 @@ angular.module('ngCubeGridSpinner', []).directive('cubeGridSpinner', function ()
 angular.module('ngWordPressSpinner', []).directive('wordPressSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/wordPressSpinner.html'
   };
 });
@@ -95,6 +105,7 @@ angular.module('ngWordPressSpinner', []).directive('wordPressSpinner', function 
 angular.module('ngFadingCircleSpinner', []).directive('fadingCircleSpinner', function () {
   return {
     restrict: 'E',
+    transclude: true,
     templateUrl: 'src/templates/fadingCircleSpinner.html'
   };
 });

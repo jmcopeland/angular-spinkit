@@ -23,7 +23,7 @@ SpinKit (https://github.com/tobiasahlin/SpinKit) spinners for AngularJS
 
 4. Add rotating-plane-spinner, double-bounce-spinner, wave-spinner, wandering-cubes-spinner, pulse-spinner, chasing-dots-spinner or circle-spinner directive to the wanted element, example:
   ```html
-  <rotating-plane-spinner></rotating-plane-spinner>
+<rotating-plane-spinner></rotating-plane-spinner>
 <double-bounce-spinner></double-bounce-spinner>
 <wave-spinner></wave-spinner>
 <wandering-cubes-spinner></wandering-cubes-spinner>
@@ -36,7 +36,12 @@ SpinKit (https://github.com/tobiasahlin/SpinKit) spinners for AngularJS
 <fading-circle-spinner></fading-circle-spinner>
   ```
 
-5. If you want to show the spinner while an image is loading just use the 'spinkit-image-preloader' directive:
+5. Display text below the spinner
+  ```html
+<wave-spinner>Loading...</wave-spinner>   
+  ```
+
+6. If you want to show the spinner while an image is loading just use the 'spinkit-image-preloader' directive:
   ```html
   <!-- The directive tries to copy dimensions from inline styles and attributes to the spinner placeholder -->
   <img width='800' height='600' alt='Your description' ng-src='http://example/img.jpg' spinkit-image-preloader='rotating-plane-spinner' />
@@ -51,7 +56,7 @@ SpinKit (https://github.com/tobiasahlin/SpinKit) spinners for AngularJS
   $scope.$on('angular-spinkit:imageLoaded');
   ```
 
-6. Add all your requests and ideas in the issues area or send us a pull request!
+7. Add all your requests and ideas in the issues area or send us a pull request!
 
 ## Example
 You can check out this live example here: http://jsfiddle.net/Urigo/638AA/18/
